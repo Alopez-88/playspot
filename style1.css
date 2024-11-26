@@ -1,52 +1,127 @@
-<!-- Custom Styles -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    margin: 0;
+    padding: 0;
+}
 
-        header h1 {
-            font-size: 2.5em;
-            color: #black;
-        }
+header {
+    background-color: white;
+    padding: 20px; 
+    border-bottom: 1px solid #ccc; 
+}
 
-        nav {
-            margin-top: 10px;
-            font-size: 1.2em;
-            color: #gray;
-        }
+h1 {
+    font-size: 30px; 
+    color: black;
+    text-align: center; 
+}
 
-        nav input[type="text"], nav button {
-            margin-left: 10px;
-        }
+.navbar {
+    text-align: center;
+}
 
-        table {
-            width: 80%;
-            margin: 20px auto;
-            border-collapse: collapse;
-        }
+.nav-link {
+    color: black; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    font-weight: bold; 
+}
 
-        table, th, td {
-            border: 1px solid #white;
-            padding: 8px;
-        }
+.nav-link:hover {
+    color: #007bff; 
+}
 
-        th {
-            background-color: #white;
-            font-weight: bold;
-        }
+.recently-released {
+    padding: 20px 0;
+}
 
-        td img.logoImg {
-            width: 100px;
-            height: auto;
-        }
+.card {
+    width: 100%; 
+    margin: 10px 0; 
+    background-color: white; 
+    border: 1px solid #ddd;
+    text-align: center; 
+}
+.card img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+}
 
-        footer {
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #f4f4f4;
-            color: #666;
-        }
-    </style>
+.card-body {
+    padding: 10px; 
+}
+
+.table {
+    width: 100%; 
+    margin-top: 30px; 
+    border-collapse: collapse;
+    text-align: center; 
+}
+
+.table th, .table td {
+    padding: 10px; 
+    border: 1px solid #ddd; 
+}
+
+.table th {
+    background-color: #f8f9fa; 
+}
+
+.video {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.video video {
+    width: 100%; 
+    max-width: 600px; 
+}
+
+.about-us {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.about-us img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 50%; 
+}
+
+.about-us p {
+    max-width: 600px; 
+    margin: 20px auto; 
+}
+
+.subscribe {
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.subscribe input[type="email"] {
+    width: 50%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+}
+
+.subscribe button {
+    padding: 10px 20px; 
+    background-color: blue; 
+    color: white;
+    border: none; 
+    cursor: pointer; 
+}
+
+.subscribe button:hover {
+    background-color: blue;
+}
+
+footer {
+    background-color: black; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center; 
+}
