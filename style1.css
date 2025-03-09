@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.navbar {
+    background: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background: red;
+    color: white;
+}
+
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: black;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.gaming-news {
+    background: white;
+    padding: 50px 20px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.news-article {
+    width: 30%;
+    background: black;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.news-article h4 {
+    font-size: 18px;
+    color: white; 
+}
+
+.news-article p {
+    font-size: 14px;
+}
+
+
+.featured-game {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.featured-game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    gap: 30px;
+}
+
+.video-container {
+    flex: 1;
+    max-width: 50%;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 280px;
+}
+
+.game-review {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+}
+
+.game-review h4 {
+    color: black;
+}
+
+.game-review p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.featured-video, .about-us {
+    text-align: center;
+}
+
+.featured-video iframe {
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+    height: 350px;
+}
+
+.about-us img {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.recently-released {
+    text-align: center;
+    padding: 30px;
+}
+
+.recently-released .card {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 20px auto;
+    width: 300px;
+    height: 450px; 
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recently-released .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recently-released .card-body {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.recently-released .review {
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.recently-released .stars {
+    font-size: 18px;
+    color: black;
+    margin-top: 5px;
+}
+
+.table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.table th {
+    background-color: black;
+    color: white;
+}
+
+.subscribe {
+    background: black;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.subscribe input[type="email"] {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.subscribe button:hover {
+    background-color: red;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid black;
+}
